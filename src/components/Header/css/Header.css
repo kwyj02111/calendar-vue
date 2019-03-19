@@ -1,0 +1,71 @@
+.header-container {
+  width: 100%;
+  height: 40px;
+}
+
+.header-today-btn {
+  width: auto;
+  height: 100%;
+  float: left;
+  font-size: 15px;
+  cursor: pointer;
+  background: #fff;
+  color: #2b2b2b;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  padding: 0 20px;
+}
+
+.header-today-btn:hover {
+  background: #ffcc30;
+}
+
+.header-mode-container {
+  height: 100%;
+  float: right;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  padding: 0 10px 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.header-mode-text {
+  height: 100%;
+  font-size: 15px;
+  background: #fff;
+  color: #2b2b2b;
+  line-height: 40px;
+  float: left;
+}
+
+.header-mode-icon {
+  float: right;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.header-mode-select-box {
+  width: 100%;
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  padding: 6px 0;
+}
+
+.header-mode-select {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  background: #fff;
+  color: #2b2b2b;
+  line-height: 40px;
+  text-align: center;
+}
+
+.header-mode-select:hover {
+  background: #ffcc30;
+}
